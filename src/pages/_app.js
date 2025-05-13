@@ -11,14 +11,20 @@ import { useEffect } from "react";
 import Sidebar from "@/components/admin/Sidebar";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBxcYN5iRK2DlEutna6H-pxyPqw44BkN8I",
-  databaseURL: "https://fir-auth-f012e-default-rtdb.firebaseio.com",
-  authDomain: "fir-auth-f012e.firebaseapp.com",
-  projectId: "fir-auth-f012e",
-  storageBucket: "fir-auth-f012e.appspot.com",
-  messagingSenderId: "608716918773",
-  appId: "1:608716918773:web:5434b3845b0a00e7b2dabc",
-  measurementId: "G-L62KT4NQXV",
+    apiKey: "AIzaSyB8SqymSLI8P5VvPZ91cisB51_Q2EH4Kyk",
+  authDomain: "eshop-54e55.firebaseapp.com",
+  projectId: "eshop-54e55",
+  storageBucket: "eshop-54e55.firebasestorage.app",
+  messagingSenderId: "506226449573",
+  appId: "1:506226449573:web:66ea516262e0061635814c"
+  // apiKey: "AIzaSyBxcYN5iRK2DlEutna6H-pxyPqw44BkN8I",
+  // databaseURL: "https://fir-auth-f012e-default-rtdb.firebaseio.com",
+  // authDomain: "fir-auth-f012e.firebaseapp.com",
+  // projectId: "fir-auth-f012e",
+  // storageBucket: "fir-auth-f012e.appspot.com",
+  // messagingSenderId: "608716918773",
+  // appId: "1:608716918773:web:5434b3845b0a00e7b2dabc",
+  // measurementId: "G-L62KT4NQXV",
 };
 const app = initializeApp(firebaseConfig);
 
