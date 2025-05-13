@@ -1,5 +1,5 @@
 import React from "react";
-
+import { collection, getDocs } from "firebase/firestore";
 const DashboardStats = ({ amount, name, color }) => {
   return (
     <div className={`block mt-8 max-w-[18rem] rounded-lg bg-slate-500`}>
